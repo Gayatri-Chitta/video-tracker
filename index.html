@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Video Progress Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            max-width: 700px;
+        }
+
+        #progress {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        button {
+            padding: 6px 14px;
+            font-size: 14px;
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>📺 Now Playing</h2>
+    <video id="lectureVideo" controls>
+        <source src="sample1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+    </video>
+    <div id="progress">Progress: 0%</div>
+    <button onclick="resetProgress()">🔄 Reset Progress</button>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

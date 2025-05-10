@@ -23,13 +23,13 @@ A smart video tracking system that calculates **unique watch progress**, **preve
 ---
 
 ## 📂 Project Structure
-
+```
 video-tracker/
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
-
+```
 ---
 
 ## 📌 How It Works
